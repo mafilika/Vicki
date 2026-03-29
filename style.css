@@ -220,7 +220,7 @@ transform: translateY(0) !important;
 @media (max-width: 768px) {
 nav {
 display: flex;
-flex-direction: column;
+flex-direction: row;
 gap: 10px;
 }
 
