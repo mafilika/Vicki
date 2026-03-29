@@ -30,7 +30,7 @@ header h2 {
 font-size: 20px;
 }
 
-nav a {
+.nav {
 color: #fff;
 margin-left: 20px;
 text-decoration: none;
@@ -38,7 +38,7 @@ font-weight: 500;
 transition: 0.3s;
 }
 
-nav a:hover {
+.nav :hover {
 color: #d4af37;
 }
 
@@ -108,7 +108,7 @@ gap: 25px;
 
 /* CARDS */
 .card {
-background: #fff;
+background: #000000;
 padding: 25px;
 border-radius: 12px;
 box-shadow: 0 10px 25px rgba(0,0,0,0.05);
