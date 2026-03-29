@@ -113,8 +113,8 @@ padding: 25px;
 border-radius: 12px;
 box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 transition: 0.3s ease;
-opacity: 0;
-transform: translateY(30px);
+opacity: 1;
+transform: translateY(0);
 }
 
 .card:hover {
