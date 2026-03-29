@@ -30,7 +30,7 @@ header h2 {
 font-size: 20px;
 }
 
-.nav {
+nav  a{
 color: #fff;
 margin-left: 20px;
 text-decoration: none;
@@ -38,7 +38,7 @@ font-weight: 500;
 transition: 0.3s;
 }
 
-.nav :hover {
+nav  a:hover {
 color: #d4af37;
 }
 
@@ -217,8 +217,13 @@ opacity: 1 !important;
 transform: translateY(0) !important;
 }
 
-/* MOBILE OPTIMIZATION */
 @media (max-width: 768px) {
+nav {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
 
 .hero h1 {
 font-size: 28px;
@@ -228,9 +233,6 @@ font-size: 28px;
 font-size: 24px;
 }
 
-nav {
-display: none; /* You can upgrade to hamburger menu later */
-}
 
 .btn {
 width: 90%;
